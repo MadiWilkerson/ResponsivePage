@@ -2,25 +2,25 @@
 body
 {
 	margin: 0px;
-	padding: 0px;
+	padding: -20px;
 }
 
 h1 {
-	color:rgb(20, 20, 10); 
+	color:rgb(0, 100, 0); 
     font-size:50px; 
-    font-family:pixel; 
+    font-family:helvetica; 
 }
 
 h2 {
-	color:rgb(5, 18, 81); 
-    font-size:50px; 
-    font-family:pixel;
+	color:rgb(160, 32, 240); 
+    font-size:20px; 
+    font-family:helvetica;
 }
 
 p {
-	color:rgb(50, 0, 10); 
-    font-size:20px;
-    font-family:pixel;
+	color:rgb(0, 0, 0); 
+    font-size:15px;
+    font-family:garamond;
 }
 
 @media screen and (max-width: 1024px) 
