@@ -24,92 +24,102 @@ p {
 	line-height: 1.6;
 }
 
-/* 1024px: green / lavender / black */
+/* 1024px: blue / pink / dark gray – Sans Serif */
 @media screen and (max-width: 1024px) {
 	h1 {
 		font-size: 72px;
-		font-family: Helvetica, Arial, sans-serif;
-		color: rgb(0, 100, 0);
+		font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+		color: rgb(0, 80, 160); /* blue */
 	}
 	h2 {
 		font-size: 26px;
-		color: rgb(224, 176, 255);
+		font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+		color: rgb(220, 120, 200); /* pink */
 	}
 	p {
 		font-size: 15px;
 		line-height: 1.6;
-		color: rgb(0, 0, 0);
+		font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+		color: rgb(40, 40, 40); /* dark gray */
 	}
 }
 
-/* 768px: dark blue / coral / slate */
+/* 768px: purple / teal / brown – Serif */
 @media screen and (max-width: 768px) {
 	h1 {
 		font-size: 52px;
-		font-family: Helvetica, Arial, sans-serif;
-		color: rgb(25, 55, 120);
+		font-family: "Georgia", "Times New Roman", serif;
+		color: rgb(110, 60, 160); /* purple */
 	}
 	h2 {
 		font-size: 22px;
-		color: rgb(220, 100, 80);
+		font-family: "Georgia", "Times New Roman", serif;
+		color: rgb(0, 140, 140); /* teal */
 	}
 	p {
 		font-size: 14px;
 		line-height: 1.6;
-		color: rgb(55, 60, 70);
+		font-family: "Georgia", "Times New Roman", serif;
+		color: rgb(100, 70, 40); /* brown */
 	}
 }
 
-/* 600px: purple / teal / brown */
+/* 600px: green / orange / navy – Humanist Sans */
 @media screen and (max-width: 600px) {
 	h1 {
 		font-size: 42px;
-		font-family: Helvetica, Arial, sans-serif;
-		color: rgb(100, 50, 140);
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+		color: rgb(0, 140, 90); /* green */
 	}
 	h2 {
 		font-size: 20px;
-		color: rgb(0, 130, 130);
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+		color: rgb(230, 140, 60); /* orange */
 	}
 	p {
 		font-size: 14px;
 		line-height: 1.65;
-		color: rgb(80, 55, 45);
+		font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+		color: rgb(20, 40, 90); /* navy */
 	}
 }
 
-/* 480px: crimson / gold / navy */
+/* 480px: red / gold / dark teal – Monospace */
 @media screen and (max-width: 480px) {
 	h1 {
 		font-size: 32px;
-		font-family: Helvetica, Arial, sans-serif;
-		color: rgb(160, 35, 50);
+		font-family: "Courier New", Courier, monospace;
+		color: rgb(190, 40, 40); /* red */
 	}
 	h2 {
 		font-size: 18px;
-		color: rgb(180, 140, 40);
+		font-family: "Courier New", Courier, monospace;
+		color: rgb(210, 170, 60); /* gold */
 	}
 	p {
 		font-size: 13px;
 		line-height: 1.65;
-		color: rgb(25, 40, 80);
+		font-family: "Courier New", Courier, monospace;
+		color: rgb(0, 90, 95); /* dark teal */
 	}
 }
 
-/* 320px: dark teal / orange / dark green */
+/* 320px: magenta / lime / dark purple – Rounded Sans */
 @media screen and (max-width: 320px) {
 	h1 {
 		font-size: 26px;
-		font-family: Helvetica, Arial, sans-serif;
-		color: rgb(0, 90, 95);
+		font-family: "Arial Rounded MT Bold", "Segoe UI", Tahoma, sans-serif;
+		color: rgb(190, 40, 150); /* magenta */
 	}
 	h2 {
 		font-size: 16px;
-		color: rgb(220, 120, 50);
+		font-family: "Arial Rounded MT Bold", "Segoe UI", Tahoma, sans-serif;
+		color: rgb(130, 210, 70); /* lime */
 	}
 	p {
 		font-size: 12px;
 		line-height: 1.7;
-		color: rgb(30, 70, 50);
+		font-family: "Arial Rounded MT Bold", "Segoe UI", Tahoma, sans-serif;
+		color: rgb(70, 40, 110); /* dark purple */
 	}
 }
