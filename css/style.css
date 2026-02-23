@@ -18,13 +18,93 @@ h2 {
 }
 
 p {
-	color:rgb(0, 0, 0); 
-    font-size:15px;
-    font-family:helvetica;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	font-family: helvetica;
+	line-height: 1.6;
 }
 
-@media screen and (max-width: 1024px) 
-@media screen and (max-width: 768px) 
-@media screen and (max-width: 600px) 
-@media screen and (max-width: 480px) 
-@media screen and (max-width: 320px) 
+@media screen and (max-width: 1024px) {
+	h1 {
+		font-size: 72px;
+		font-family: Helvetica, Arial, sans-serif;
+		color: rgb(0, 100, 0);
+	}
+	h2 {
+		font-size: 26px;
+		color: rgb(224, 176, 255);
+	}
+	p {
+		font-size: 15px;
+		line-height: 1.6;
+		color: rgb(0, 0, 0);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 52px;
+		font-family: Helvetica, Arial, sans-serif;
+		color: rgb(0, 100, 0);
+	}
+	h2 {
+		font-size: 22px;
+		color: rgb(224, 176, 255);
+	}
+	p {
+		font-size: 14px;
+		line-height: 1.6;
+		color: rgb(0, 0, 0);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 42px;
+		font-family: Helvetica, Arial, sans-serif;
+		color: rgb(0, 100, 0);
+	}
+	h2 {
+		font-size: 20px;
+		color: rgb(224, 176, 255);
+	}
+	p {
+		font-size: 14px;
+		line-height: 1.65;
+		color: rgb(0, 0, 0);
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 32px;
+		font-family: Helvetica, Arial, sans-serif;
+		color: rgb(0, 100, 0);
+	}
+	h2 {
+		font-size: 18px;
+		color: rgb(224, 176, 255);
+	}
+	p {
+		font-size: 13px;
+		line-height: 1.65;
+		color: rgb(0, 0, 0);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 26px;
+		font-family: Helvetica, Arial, sans-serif;
+		color: rgb(0, 100, 0);
+	}
+	h2 {
+		font-size: 16px;
+		color: rgb(224, 176, 255);
+	}
+	p {
+		font-size: 12px;
+		line-height: 1.7;
+		color: rgb(0, 0, 0);
+	}
+}
