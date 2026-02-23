@@ -24,43 +24,43 @@ p {
 	line-height: 1.6;
 }
 
-/* 1024px: blue / pink / dark gray – Sans Serif */
+/* 1024px: bright blue / hot pink / near black – Verdana (sans) */
 @media screen and (max-width: 1024px) {
 	h1 {
 		font-size: 72px;
-		font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
-		color: rgb(0, 80, 160); /* blue */
+		font-family: Verdana, Geneva, sans-serif;
+		color: rgb(0, 112, 200);
 	}
 	h2 {
 		font-size: 26px;
-		font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
-		color: rgb(220, 120, 200); /* pink */
+		font-family: Verdana, Geneva, sans-serif;
+		color: rgb(220, 50, 150);
 	}
 	p {
 		font-size: 15px;
 		line-height: 1.6;
-		font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
-		color: rgb(40, 40, 40); /* dark gray */
+		font-family: Verdana, Geneva, sans-serif;
+		color: rgb(20, 20, 20);
 	}
 }
 
-/* 768px: purple / teal / brown – Serif */
+/* 768px: burgundy / olive / charcoal – Georgia (serif) */
 @media screen and (max-width: 768px) {
 	h1 {
 		font-size: 52px;
-		font-family: "Georgia", "Times New Roman", serif;
-		color: rgb(110, 60, 160); /* purple */
+		font-family: Georgia, "Times New Roman", Times, serif;
+		color: rgb(140, 35, 55);
 	}
 	h2 {
 		font-size: 22px;
-		font-family: "Georgia", "Times New Roman", serif;
-		color: rgb(0, 140, 140); /* teal */
+		font-family: Georgia, "Times New Roman", Times, serif;
+		color: rgb(100, 120, 50);
 	}
 	p {
 		font-size: 14px;
 		line-height: 1.6;
-		font-family: "Georgia", "Times New Roman", serif;
-		color: rgb(100, 70, 40); /* brown */
+		font-family: Georgia, "Times New Roman", Times, serif;
+		color: rgb(50, 50, 55);
 	}
 }
 
